@@ -6,10 +6,10 @@ export const RESUME_DATA = {
   location: "San Francisco, CA",
   about: "Software Engineer at Verkada | CS at Penn",
   summary:
-    "As a software engineer with full stack experience, I'm passionate about building impactful products and writing great code. I started my career at Salesforce and have now moved into the startup space. I'm currently working on a new web app that will be the first ecommerce site for my company, Verkada - using Next.js and Golang.\n",
+    "As a software engineer with full stack experience, I'm passionate about building impactful products and writing great code. I started my career at big techs and have now moved into the startup space. I'm currently working on a new web app that will be the first ecommerce site for my company, Verkada - using Next.js and Golang.\n",
   interests:
-    "In my personal time, I love films, music, F1 racing, soccer (Real Madrid), and UFC.",
-  avatarUrl: "https://github.com/wang-thomas.png",
+    "Outside of tech, I love films, music, F1 racing, soccer (Real Madrid), and UFC.",
+  avatarUrl: "https://github.com/wang-thdafomas.png",
   contact: {
     email: "wtpthomas@gmail.com",
     tel: "9143109545",
