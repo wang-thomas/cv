@@ -9,7 +9,7 @@ export const RESUME_DATA = {
     "As a software engineer with full stack experience, I'm passionate about building impactful products and writing great code. I started my career at big techs and have now moved into the startup space. I'm currently working on a new web app that will be the first ecommerce site for my company, Verkada - using Next.js and Golang.\n",
   interests:
     "Outside of tech, I love films, music, F1 racing, soccer (Real Madrid), and UFC.",
-  avatarUrl: "https://github.com/wang-thdafomas.png",
+  avatarUrl: "https://github.com/wang-thomas.png",
   contact: {
     email: "wtpthomas@gmail.com",
     tel: "9143109545",
