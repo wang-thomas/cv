@@ -29,6 +29,15 @@ export default function Page() {
                 className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
                 target="_blank"
               >
+                <MailIcon className="size-3" />
+                {RESUME_DATA.contact.email}
+              </a>
+            </p>
+            <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
+              <a
+                className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
+                target="_blank"
+              >
                 <GlobeIcon className="size-3" />
                 {RESUME_DATA.location}
               </a>
@@ -135,6 +144,9 @@ export default function Page() {
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
                   {work.description}
+                  {work.secondDescription && (
+                    <p className="mt-2">{work.secondDescription}</p>
+                  )}
                 </CardContent>
               </Card>
             );

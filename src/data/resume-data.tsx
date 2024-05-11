@@ -1,12 +1,12 @@
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
+import { summary, verkadaFollowup, verkadaSummary } from "./summary";
 
 export const RESUME_DATA = {
   name: "Thomas Wang",
   initials: "TW",
   location: "San Francisco, CA",
   about: "Software Engineer at Verkada | CS at Penn",
-  summary:
-    "As a software engineer with full stack experience, I'm passionate about building impactful products and writing great code. I started my career at big techs and have now moved into the startup space. I'm currently working on a new web app that will be the first ecommerce site for my company, Verkada - using Next.js and Golang.\n",
+  summary: summary,
   interests:
     "Outside of tech, I love films, music, F1 racing, soccer (Real Madrid), and UFC.",
   avatarUrl: "https://github.com/wang-thomas.png",
@@ -48,8 +48,8 @@ export const RESUME_DATA = {
       title: "Software Engineer - Full Stack",
       start: "2022",
       end: "Present",
-      description:
-        "Building the first ecommerce site for Verkada, using Next.js and Golang. The web store allows customers to directly browse deals, purchase products, and manage orders. It signinicantly reduces time to purchase (TTP) and increases purchase volume and profitability.",
+      description: verkadaSummary,
+      secondDescription: verkadaFollowup,
     },
     {
       company: "Salesforce",
@@ -60,6 +60,7 @@ export const RESUME_DATA = {
       end: "2022",
       description:
         "Implemented features to improve reliability and availability of Salesforce's key infrastructure, including Hadoop cluster, Docker Swarm cluster, Airflow, Postgres, and Jenkins.",
+      secondDescription: "",
     },
     {
       company: "Microsoft",
@@ -70,14 +71,15 @@ export const RESUME_DATA = {
       end: "2021",
       description:
         "Designed optimizations to Azure Storage services to reduce cost of large-scale data and migrations. Implemented a new throttling service based on latency to reduce neighboorhood noise problem.",
+      secondDescription: "",
     },
   ],
   skills: [
     "AWS",
-    "Airflow",
-    "React/Next.js",
     "Kubernetes/Docker",
     "PostgreSQL",
+    "React/Next.js",
+    "Airflow",
     "Redis",
     "BigQuery",
   ],
