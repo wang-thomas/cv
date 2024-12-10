@@ -1,5 +1,5 @@
 export const summary =
-  "As a software engineer with full stack experience, I'm passionate about building beautiful products and writing great code. I started my career at Salesforce and have now moved into the startup space. I've launched two new web apps with my current company Verkada for its commerce and supply chain needs - using Next.js and Golang.\n";
+  "As a software engineer with full stack experience, I'm passionate about building beautiful products and writing great code. After graduating from UPenn (undergrad + masters), I've been working in the tech industry gathering a wide range of experiences, from infra at Salesforce to fullstack at Verkada (series D startup). Currently, I'm a product engineer at Robinhood, building the future of personal finance.";
 
 export const verkadaSummary =
   'Launched Verkada\'s first ecommerce app, "Verkada Store", using Next.js and Golang. The web store allows customers to directly browse deals, purchase products, and manage orders. It signinicantly reduces time to purchase (TTP) and increases purchase volume and profitability.';
