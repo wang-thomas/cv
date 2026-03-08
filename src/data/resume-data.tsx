@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   about: "Software Engineer at Robinhood | CS at Penn",
   summary: summary,
   interests:
-    "Outside of tech, I love films, music, F1 racing, soccer (Real Madrid), and UFC.",
+    "Outside of tech, I love films, music, F1 racing, soccer (Real Madrid), and the UFC.",
   avatarUrl: "https://github.com/wang-thomas.png",
   contact: {
     email: "wtpthomas@gmail.com",
@@ -48,7 +48,7 @@ export const RESUME_DATA = {
       title: "Software Engineer - Full Stack",
       start: "2024.10",
       end: "Present",
-      description: "Building the Robinhood Credit Card product.",
+      description: "Building the Robinhood Banking & Credit Card products.",
       secondDescription: "",
     },
     {
@@ -86,17 +86,18 @@ export const RESUME_DATA = {
   ],
   skills: [
     "AWS",
-    "Kubernetes/Docker",
+    "React/React Native",
+    "Kubernetes",
     "PostgreSQL",
-    "React/Next.js",
+    "Next.js",
     "Airflow",
     "Redis",
     "BigQuery",
   ],
   languages: [
-    "Python",
     "Scala",
     "Golang",
+    "Python",
     "TypeScript",
     "JavaScript",
     "Java",
