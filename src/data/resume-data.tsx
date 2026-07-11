@@ -48,7 +48,8 @@ export const RESUME_DATA = {
       title: "Member of Technical Staff",
       start: "2026.08",
       end: "Present",
-      description: "Incoming member of technical staff, on Agent Capabilities team.",
+      description:
+        "Incoming member of technical staff, on Agent Capabilities team.",
       secondDescription: "",
     },
     {
@@ -58,10 +59,27 @@ export const RESUME_DATA = {
       title: "Software Engineer - Full Stack",
       start: "2024",
       end: "2026",
-      description:
-        "Launched Robinhood Banking 0-to-1 as part of the founding 20-engineer team, delivering joint and child accounts, identity and invitation flows, access controls, account conversions, scheduled and recurring transfers, and debit card experiences across Scala backend and React Native/TypeScript frontend.",
-      secondDescription:
-        "Shipped premium credit card upgrade and points-reservation systems, improving credit unit economics by 35% as a point redemption option and extending the float period before reward cost realization.",
+      description: (
+        <ul className="ml-4 list-disc space-y-1">
+          <li>
+            Built Robinhood Banking 0-to-1 as part of the founding 20-engineer
+            team.
+          </li>
+          <li>
+            Delivered Banking product verticals end-to-end across Scala backend
+            and React Native/TypeScript frontend, including joint and child
+            accounts, identity and invitation flows, access controls, account
+            conversions, scheduled and recurring transfers, and debit card
+            experiences.
+          </li>
+          <li>
+            Shipped premium credit card upgrade and points-reservation systems,
+            improving credit unit economics by 35% as a point redemption option
+            and extending the float period before reward cost realization.
+          </li>
+        </ul>
+      ),
+      secondDescription: "",
     },
     {
       company: "Verkada",
