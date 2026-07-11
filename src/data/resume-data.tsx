@@ -1,5 +1,5 @@
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
-import { summary, verkadaFollowup, verkadaSummary } from "./summary";
+import { summary } from "./summary";
 
 export const RESUME_DATA = {
   name: "Thomas Wang",
@@ -12,7 +12,6 @@ export const RESUME_DATA = {
   avatarUrl: "/avatar.jpeg",
   contact: {
     email: "wtpthomas@gmail.com",
-    tel: "9143109545",
     social: [
       {
         name: "GitHub",
@@ -46,10 +45,15 @@ export const RESUME_DATA = {
       link: "https://perplexity.ai",
       badges: [],
       title: "Member of Technical Staff",
-      start: "2026.08",
+      start: "2026",
       end: "Present",
-      description:
-        "Incoming member of technical staff, on Agent Capabilities team.",
+      description: (
+        <ul className="ml-4 list-disc space-y-1">
+          <li>
+            Incoming member of technical staff on the Agent Capabilities team.
+          </li>
+        </ul>
+      ),
       secondDescription: "",
     },
     {
@@ -86,20 +90,47 @@ export const RESUME_DATA = {
       link: "https://verkada.com",
       badges: [],
       title: "Software Engineer - Full Stack",
-      start: "2023.02",
-      end: "2024.10",
-      description: verkadaSummary,
-      secondDescription: verkadaFollowup,
+      start: "2023",
+      end: "2024",
+      description: (
+        <ul className="ml-4 list-disc space-y-1">
+          <li>
+            Launched Verkada Store, the company&apos;s first ecommerce app,
+            using Next.js and Golang.
+          </li>
+          <li>
+            Enabled customers to browse deals, purchase products, and manage
+            orders directly, reducing time to purchase and increasing purchase
+            volume and profitability.
+          </li>
+          <li>
+            Built Concierge, a supply-chain management tool for real-time
+            monitoring and adjustment of Verkada orders, improving operational
+            efficiency and reducing time to ship.
+          </li>
+        </ul>
+      ),
+      secondDescription: "",
     },
     {
       company: "Salesforce",
       link: "https://salesforce.com",
       badges: [],
       title: "Software Engineer - Backend",
-      start: "2021.12",
-      end: "2023.01",
-      description:
-        "Implemented features to improve reliability and availability of Salesforce's key infrastructure, including Hadoop cluster, Docker Swarm cluster, Airflow, Postgres, and Jenkins.",
+      start: "2021",
+      end: "2023",
+      description: (
+        <ul className="ml-4 list-disc space-y-1">
+          <li>
+            Improved reliability and availability across Salesforce&apos;s core
+            infrastructure.
+          </li>
+          <li>
+            Built backend features and operational improvements for Hadoop,
+            Docker Swarm, Airflow, Postgres, and Jenkins.
+          </li>
+        </ul>
+      ),
       secondDescription: "",
     },
     {
@@ -107,10 +138,20 @@ export const RESUME_DATA = {
       link: "https://microsoft.com/",
       badges: [],
       title: "Program Manager / Software Engineer Intern",
-      start: "2021.07",
-      end: "2021.09",
-      description:
-        "Designed optimizations to Azure Storage services to reduce cost of large-scale data and migrations. Implemented a new throttling service based on latency to reduce neighboorhood noise problem.",
+      start: "2021",
+      end: "2021",
+      description: (
+        <ul className="ml-4 list-disc space-y-1">
+          <li>
+            Designed Azure Storage optimizations to reduce the cost of
+            large-scale data migrations.
+          </li>
+          <li>
+            Implemented a latency-based throttling service to reduce noisy
+            neighbor issues.
+          </li>
+        </ul>
+      ),
       secondDescription: "",
     },
   ],
