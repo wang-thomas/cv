@@ -34,7 +34,7 @@ export const RESUME_DATA = {
     },
     {
       school: "University of Pennsylvania",
-      degree: "Bachelors of Science in Computer Science, Economics",
+      degree: "Bachelors of Science in Computer Science, Economics; Minor in Mathematics",
       start: "2017",
       end: "2021",
     },
