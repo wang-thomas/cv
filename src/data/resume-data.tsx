@@ -9,7 +9,7 @@ export const RESUME_DATA = {
   summary: summary,
   interests:
     "Outside of tech, I love films, music, F1 racing, soccer (Real Madrid), and the UFC.",
-  avatarUrl: "https://github.com/wang-thomas.png",
+  avatarUrl: "/avatar.jpeg",
   contact: {
     email: "wtpthomas@gmail.com",
     tel: "9143109545",
@@ -29,27 +29,39 @@ export const RESUME_DATA = {
   education: [
     {
       school: "University of Pennsylvania",
-      degree: "Bachelors of Science in Computer Science, Economics",
-      start: "2017",
+      degree: "Masters of Science in Computer Science",
+      start: "2020",
       end: "2021",
     },
     {
       school: "University of Pennsylvania",
-      degree: "Masters of Science in Computer Science",
-      start: "2020",
+      degree: "Bachelors of Science in Computer Science, Economics",
+      start: "2017",
       end: "2021",
     },
   ],
   work: [
     {
+      company: "Perplexity AI",
+      link: "https://perplexity.ai",
+      badges: [],
+      title: "Member of Technical Staff",
+      start: "2026.08",
+      end: "Present",
+      description: "Incoming member of technical staff, on Agent Capabilities team.",
+      secondDescription: "",
+    },
+    {
       company: "Robinhood",
       link: "https://robinhood.com",
       badges: [],
       title: "Software Engineer - Full Stack",
-      start: "2024.10",
-      end: "Present",
-      description: "Building the Robinhood Banking & Credit Card products.",
-      secondDescription: "",
+      start: "2024",
+      end: "2026",
+      description:
+        "Launched Robinhood Banking 0-to-1 as part of the founding 20-engineer team, delivering joint and child accounts, identity and invitation flows, access controls, account conversions, scheduled and recurring transfers, and debit card experiences across Scala backend and React Native/TypeScript frontend.",
+      secondDescription:
+        "Shipped premium credit card upgrade and points-reservation systems, improving credit unit economics by 35% as a point redemption option and extending the float period before reward cost realization.",
     },
     {
       company: "Verkada",
