@@ -1,2 +1,2 @@
 export const summary =
-  "As a software engineer with full stack experience, I'm passionate about building beautiful products and writing great code. After graduating from UPenn (undergrad + masters), I've been working in the tech industry gathering a wide range of experiences, from infra at Salesforce to fullstack at Verkada (series D startup). Currently, I'm a product engineer at Robinhood, building the future of personal finance.";
+  "I want to build beautiful products and write great code. After graduating from UPenn (undergrad + masters), I've been working in the tech industry gathering a wide range of experiences, from infra at Salesforce to fullstack at Robinhood. Currently, I'm on the Capabilities team at Perplexity, building the future of AI.";

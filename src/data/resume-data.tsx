@@ -5,7 +5,7 @@ export const RESUME_DATA = {
   name: "Thomas Wang",
   initials: "TW",
   location: "New York, NY",
-  about: "Software Engineer at Robinhood | CS at Penn",
+  about: "Member of Technical Staff at Perplexity | CS at Penn",
   summary: summary,
   interests:
     "Outside of tech, I love films, music, F1 racing, soccer (Real Madrid), and the UFC.",
@@ -50,7 +50,7 @@ export const RESUME_DATA = {
       description: (
         <ul className="ml-4 list-disc space-y-1">
           <li>
-            Incoming member of technical staff on the Agent Capabilities team.
+            Working on extending agentic capabilities
           </li>
         </ul>
       ),
@@ -66,13 +66,11 @@ export const RESUME_DATA = {
       description: (
         <ul className="ml-4 list-disc space-y-1">
           <li>
-            Built Robinhood Banking 0-to-1 as part of the founding 20-engineer
+            Launched Robinhood Banking 0-to-1 as part of the founding 20-engineer
             team.
           </li>
           <li>
-            Delivered Banking product verticals end-to-end across Scala backend
-            and React Native/TypeScript frontend, including joint and child
-            accounts, identity and invitation flows, access controls, account
+            Build Joint and Child bank accounts, identity management and invitation flows, access controls, account
             conversions, scheduled and recurring transfers, and debit card
             experiences.
           </li>
@@ -116,7 +114,7 @@ export const RESUME_DATA = {
       company: "Salesforce",
       link: "https://salesforce.com",
       badges: [],
-      title: "Software Engineer - Backend",
+      title: "Software Engineer - Infrastructure",
       start: "2021",
       end: "2023",
       description: (
